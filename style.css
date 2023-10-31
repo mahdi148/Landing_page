@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.headeBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.leftheaderContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 16em;
+}
+
+.Logoleftlink {
+    margin: 0.5em 0em 0.7em 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    width: 8.8em;
+    text-decoration: none;
+}
+
+.Logo-image-con {
+    display: flex;
+    align-items: center;
+    margin:0 8px 0 0;
+}
+
+.Logo-image {
+    width: 50px;
+}
+
+.text-logo {
+    color: white;
+    font-family: 'Manga Temple', sans-serif;
+    font-size: 0.9em;
+    width: 10em;
+}
+
+.rightheaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-options {
+    position: relative;
+    color: white;
+    display: flex;
+    width:25em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1vw;
+}
