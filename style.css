@@ -6,6 +6,17 @@ body {
     margin: 0;
 }
 
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index:-2;
+    top:0;
+    left:0;
+    object-fit: cover;
+    
+}
+
 .headeBar {
     width: 100%;
     display: flex;
@@ -67,4 +78,133 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-right: 1vw;
+}
+
+.About, .News, .Top-Stories, .Shop, .Contact {
+    font-size: 0.9em;
+    font-family: 'Manga Temple', sans-serif;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 0px;
+}
+
+.layer1 {
+    position: relative;
+}
+
+.container-1 {
+    width:85%;
+    height: 90%;
+    border-radius: 1.5em;
+    margin: 9em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.left-side {
+    color: white;
+    margin: 1em 1em 2em 2em;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.greetings {
+    font-size: 2em;
+    text-align: center;
+    font-family: "Manga Temple" , sans-serif;
+}
+
+.description {
+    margin-top: 0.5em;
+    font-size: 1.1.em;
+    font-family: "Manga Temple", sans-serif;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.donate-container {
+    margin-top: 2em;
+}
+
+.donatee {
+    color:white;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    font-size:1em;
+    text-decoration: none;
+    font-family: "Manga Temple";
+    background-image: linear-gradient(red, rgba(107, 39, 0, 0.5) );
+    transition: 0.3s;
+
+}
+
+.donatee:hover {
+    transform: translateY(-3%);
+}
+
+.right-side {
+    width:40vw;
+    margin: 3em 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.luffy {
+    width: 27vw;
+}
+
+.layer2{
+    position: relative;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1em solid black;
+    width:50vw;
+}
+
+.side1 {
+    border: 1em solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.side2{
+    border: 1em solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.top1{
+    display: flex;
+    flex-direction: column;
+    border: 1em solid black;
+    margin-top: 2em;
+}
+
+.top2{
+    display: flex;
+    flex-direction: column;
+    border: 1em solid black;
+    margi
 }
