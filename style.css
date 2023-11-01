@@ -94,8 +94,8 @@ body {
 }
 
 .container-1 {
-    width:85%;
-    height: 90%;
+    width:50%;
+    height: 50%;
     border-radius: 1.5em;
     margin: 9em auto 0 auto;
     display: flex;
@@ -165,46 +165,62 @@ body {
 }
 
 .luffy {
-    width: 27vw;
+    width: 20vw;
 }
 
-.layer2{
-    position: relative;
+.section-bg{
+    background-image: gray;
+    margin-top: 8em;
+}
+
+.layer2content {
+    padding-top: 1em;
+}
+
+.stories-head {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 0.5em 1em 1.5em 1em;
+    font-family: "Manga Temple", sans-serif;
+}
+
+.stories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 2.5em;
+    flex-wrap: wrap;
     
 }
 
-.top {
+.first-story, .second-story, .third-story, .fourth-story {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: 1em solid black;
-    width:50vw;
+    flex: 1 1 0px;
+    
 }
 
-.side1 {
-    border: 1em solid black;
-    display: flex;
-    flex-direction: row;
+.firstimage, .secondimage {
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em;
 }
 
-.side2{
-    border: 1em solid black;
-    display: flex;
-    flex-direction: column;
-    margin: 2em;
-}
 
-.top1{
-    display: flex;
-    flex-direction: column;
-    border: 1em solid black;
-    margin-top: 2em;
-}
 
-.top2{
-    display: flex;
-    flex-direction: column;
-    border: 1em solid black;
-    margi
+.first-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin: 1em 0 1em 0;
+    font-family: "lunatic";
+    z-index: 2;
+
 }
