@@ -4,6 +4,9 @@ html {
 
 body {
     margin: 0;
+    padding:0;
+    min-height: 100vh;
+    
 }
 
 #background {
@@ -224,3 +227,28 @@ body {
     z-index: 2;
 
 }
+
+footer {
+    background-color: black;
+    color:white;
+    bottom:0;
+    width: 100vw;
+    font-size: 16px;
+}
+
+footer * {
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+}
+
+.row {
+    padding: 1em 1em;
+}
+
+.row.contact-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+}
+
